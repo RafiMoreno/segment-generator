@@ -235,7 +235,7 @@ def seed_initial_data(apps, schema_editor):
     port_11c.target = port_12a
     port_11c.save()
 
-    port_11d.source = port_12c
+    port_11d.source = port_10a
     port_11d.save()
 
     port_12a.source = port_6c
