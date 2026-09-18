@@ -232,7 +232,7 @@ def seed_initial_data(apps, schema_editor):
     port_11b.source = port_9a
     port_11b.save()
 
-    port_11c.target = port_12a
+    port_11c.target = port_12c
     port_11c.save()
 
     port_11d.source = port_10a
